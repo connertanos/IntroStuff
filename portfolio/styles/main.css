@@ -1,0 +1,73 @@
+/*
+Creator: Tanner Kendall
+Date created: 12/19/2020
+Date last modified:
+*/
+
+body {
+  background-color: #F7F7FF;
+  font-family: arial, helvetica, sans-serif;
+  color: #2D3142;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #2D3142;
+  color: #F7F7FF;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+nav {
+  border-top: 3px dashed #4F5D75;
+  border-bottom: 3px dashed #4F5D75;
+  margin-top: 4px;
+}
+
+.clear-float {
+  clear:both;
+}
+
+article img {
+  float:left;
+}
+
+.right-content {
+  float:left;
+}
+
+article {
+  margin-bottom: 16px;
+}
+
+nav a {
+  background-color: #4F5D75;
+  color: #F7F7FF;
+  padding: 8px;
+  border: thin solid #2D3142;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  width: 100px;
+  float: left;
+}
+
+nav a:visited {
+  color: #BDD5EA;
+}
+
+nav a:hover {
+  background-color: #F7F7FF;
+  color: #4F5D75;
+}
+
+nav a:active {
+  font-weight: bold;
+}
